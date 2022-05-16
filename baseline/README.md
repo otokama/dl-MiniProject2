@@ -1,10 +1,5 @@
 # Baseline model training
 
-## Models:
-- ResNet20
-- ResNet32
-- ResNet56
-- ResNet110
 
 ## Environment
 

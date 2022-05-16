@@ -27,3 +27,4 @@ python distiller-4-bit-qat/examples/classifier_compression/compress_classifier.p
     --earlyexit_lossweights [early exit loss weights]
 ```
 
+Note: Distiller supports training on CIFAR-10 out of the box. You need to modify train and test dataloaders in ```apputils/data_loaders.py``` and ```NUM_CLASSES``` in ```models/cifar10/resnet_cifar_earlyexit.py``` to support training on CIFAR-100.

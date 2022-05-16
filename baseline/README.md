@@ -18,10 +18,10 @@ conda activate baseline-env
 1. Model training:
 ```
 python baseline_model.py 
---lr [learning rate] 
---epoch [number of epoch] 
---model [baseline model] 
---dataset [cifar10 or cifar100]
+    --lr [learning rate] 
+    --epoch [number of epoch] 
+    --model [baseline model] 
+    --dataset [cifar10 or cifar100]
 ```
 
 2. Baseline models:

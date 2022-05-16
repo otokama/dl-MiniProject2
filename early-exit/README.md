@@ -21,7 +21,7 @@ python distiller-4-bit-qat/examples/classifier_compression/compress_classifier.p
     -b [batch size] 
     --lr [learning rate] 
     --wd [weight decay] 
-    --m [momentum] 
+    --momentum [momentum] 
     DIR [directory of CIFAR10 dataset]
     --earlyexit_thresholds [early exit threshold]
     --earlyexit_lossweights [early exit loss weights]

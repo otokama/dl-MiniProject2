@@ -14,4 +14,3 @@ setup(name='distiller',
       packages=packages,
       install_requires=install_reqs
       )
-

@@ -35,8 +35,8 @@ python distiller-4-bit-qat/examples/classifier_compression/compress_classifier.p
 3. Example command for training ResNet-56:
 ```
 python distiller-4-bit-qat/examples/classifier_compression/compress_classifier.py 
-    --arch=resnet56_cifar_earlyexit
-    --epochs=300 -b 128 --lr 0.1 data/ --weight-decay 0.0001 --momentum 0.9 
+    --arch resnet56_cifar_earlyexit
+    --epochs 300 -b 128 --lr 0.1 data/ --weight-decay 0.0001 --momentum 0.9 
     --earlyexit_thresholds 1.2 --earlyexit_lossweights 0.1
 ```
 

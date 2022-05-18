@@ -32,7 +32,7 @@ python distiller-4-bit-qat/examples/classifier_compression/compress_classifier.p
 - ResNet-32: ```--arch=resnet32_cifar_earlyexit```
 - ResNet-56: ```--arch=resnet56_cifar_earlyexit```
 - ResNet-110: ```--arch=resnet110_cifar_earlyexit```
-3. Example command for training ResNet-56:
+3. Example command for training ResNet-56 with early exit:
 ```
 python distiller-4-bit-qat/examples/classifier_compression/compress_classifier.py 
     --arch resnet56_cifar_earlyexit

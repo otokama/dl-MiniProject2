@@ -28,10 +28,10 @@ python distiller-4-bit-qat/examples/classifier_compression/compress_classifier.p
     --earlyexit_lossweights [early exit loss weights]
 ```
 2. Early exit models:
-    - ResNet-20: ```--arch=resnet20_cifar_earlyexit```
-    - ResNet-32: ```--arch=resnet32_cifar_earlyexit```
-    - ResNet-56: ```--arch=resnet56_cifar_earlyexit```
-    - ResNet-110: ```--arch=resnet110_cifar_earlyexit```
+- ResNet-20: ```--arch=resnet20_cifar_earlyexit```
+- ResNet-32: ```--arch=resnet32_cifar_earlyexit```
+- ResNet-56: ```--arch=resnet56_cifar_earlyexit```
+- ResNet-110: ```--arch=resnet110_cifar_earlyexit```
 3. Example command for training ResNet-56:
 ```
 python distiller-4-bit-qat/examples/classifier_compression/compress_classifier.py 

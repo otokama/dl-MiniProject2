@@ -29,3 +29,8 @@ python baseline_model.py
 - ResNet-32:  ```--model 1 ```
 - ResNet-56:  ```--model 2```
 - ResNet-110:  ```--model 3```
+
+3. Example command for training ResNet-32 for 200 epochs using default learning rate (0.1) and dataset (CIFAR10):
+```
+python baseline_model.py --epoch 200 --model 1
+```

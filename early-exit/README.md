@@ -36,7 +36,8 @@ python distiller-4-bit-qat/examples/classifier_compression/compress_classifier.p
 ```
 python distiller-4-bit-qat/examples/classifier_compression/compress_classifier.py 
     --arch=resnet56_cifar_earlyexit
-    --epochs=300 -b 128 --lr 0.1 data/ --weight-decay 0.0001 --momentum 0.9 --earlyexit_thresholds 1.2 --earlyexit_lossweights 0.1
+    --epochs=300 -b 128 --lr 0.1 data/ --weight-decay 0.0001 --momentum 0.9 
+    --earlyexit_thresholds 1.2 --earlyexit_lossweights 0.1
 ```
 
 Note: Distiller supports training on CIFAR-10 out of the box. You need to modify train and test dataloaders in ```apputils/data_loaders.py``` and ```NUM_CLASSES``` in ```models/cifar10/resnet_cifar_earlyexit.py``` to support training on CIFAR-100.
